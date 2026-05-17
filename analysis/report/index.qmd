@@ -1,9 +1,6 @@
 ---
 title: "Palmer Penguins Part 3: Cross-Validation and
   Model Comparison"
-subtitle: >
-  Testing model robustness and introducing machine
-  learning alternatives
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-03"
 categories: [r, cross-validation, random-forest, machine-learning]
@@ -29,7 +26,7 @@ format:
 shore](media/images/hero.jpg){.img-fluid
 width=80%
 fig-alt="Penguins standing on rocky Antarctic
-shoreline with ocean waves in the background"}
+shoreline with ocean waves in the background" fig-align="center"}
 
 *Palmer Penguins series, Part 3. Photo used under
 open licence.*
