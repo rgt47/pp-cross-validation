@@ -32,7 +32,7 @@ shoreline with ocean waves in the background" fig-align="center"}
 open licence.*
 
 ::: {.callout-note}
-**Palmer Penguins Series** -- This is part 3 of 5:
+**Palmer Penguins Series:** This is part 3 of 5:
 [Part 1](/posts/08-palmerpenguinspart1/) |
 [Part 2](/posts/09-palmerpenguinspart2/) |
 [Part 3](/posts/10-palmerpenguinspart3/) |
@@ -58,11 +58,11 @@ requiring a separate hold-out dataset, which would
 have been difficult to justify given our modest sample
 of 333 penguins.
 
-This post walks through the cross-validation
-framework, tests whether polynomial features add
-value, and pits the linear model against a random
-forest to see whether the additional complexity buys
-meaningful improvement.
+We walk through the cross-validation framework,
+test whether polynomial features add value, and pit
+the linear model against a random forest to see
+whether the additional complexity buys meaningful
+improvement.
 
 ## Motivations
 
@@ -639,16 +639,20 @@ drawing conclusions about model quality, and do not
 assume that a more complex model will outperform a
 simpler one.
 
-Main takeaways:
-
-- Cross-validated R-squared of approximately 0.86
-  confirms robust generalisation.
-- Polynomial features yield negligible improvement
-  over linear terms within species.
-- Random forests offer marginal gains at the cost
-  of interpretability.
-- The species-aware linear model remains the
-  recommended choice for this dataset.
+In conclusion, four points merit emphasis. First,
+a cross-validated R-squared of approximately 0.86
+confirms that the species-aware model generalises
+robustly to held-out data. Second, polynomial
+features yield negligible improvement over linear
+terms within species, indicating that the biological
+relationships are adequately captured by straight
+lines. Third, random forests offer only marginal
+gains at the cost of interpretability, making the
+additional complexity difficult to justify. Fourth,
+the species-aware linear model remains the
+recommended choice for this dataset, offering
+strong performance alongside transparent and
+auditable coefficients.
 
 # See Also
 
