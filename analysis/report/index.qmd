@@ -20,6 +20,8 @@ format:
   html:
     code-fold: false
     code-tools: false
+cluster: penguins-arc
+cluster-order: 3
 ---
 
 ![Penguins gathered on rocky Antarctic
@@ -722,3 +724,17 @@ Feedback is welcome for:
 - Questions about anything in this tutorial
 - General discussion of predictive modelling for
   ecological data
+
+## Related posts in this cluster
+
+This post is part of the *Palmer Penguins Analysis Arc* series.
+Recommended reading order:
+
+1. Post 50: [Palmer Penguins Part 1: Exploratory Data Analysis](../50-palmerpenguinspart1/)
+2. Post 51: [Palmer Penguins Part 2: Multiple Regression](../51-palmerpenguinspart2/)
+3. **Post 52: Palmer Penguins Part 3: Cross-Validation** (this post)
+4. Post 53: [Palmer Penguins Part 4: Model Diagnostics](../53-palmerpenguinspart4/)
+5. Post 54: [Palmer Penguins Part 5: Random Forest versus Linear](../54-palmerpenguinspart5/)
+6. Post 55: [Predictive Modeling of Penguin Body Mass](../55-palmerpenguinsregression/)
+7. Post 56: [Functional Plot Generation with purrr](../56-plotsfrompurrr/)
+
