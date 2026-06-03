@@ -8,7 +8,7 @@ description: >
   Testing whether regression models hold up on new
   data through ten-fold cross-validation and
   comparison against a random forest.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 document-type: "blog"
 draft: false
 execute:
@@ -25,7 +25,7 @@ cluster-order: 3
 ---
 
 ![Penguins gathered on rocky Antarctic
-shore](media/images/hero.jpg){.img-fluid
+shore](media/images/hero.png){.img-fluid
 width=80%
 fig-alt="Penguins standing on rocky Antarctic
 shoreline with ocean waves in the background" fig-align="center"}
