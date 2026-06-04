@@ -10,7 +10,7 @@ description: >
   comparison against a random forest.
 image: "media/images/hero.png"
 document-type: "blog"
-draft: false
+draft: true
 execute:
   echo: true
   eval: false
@@ -306,7 +306,7 @@ narrow interval suggests stable generalisation across
 folds.
 
 ![Penguin colony on a rocky
-outcrop](media/images/ambiance2.jpg){.img-fluid
+outcrop](media/images/ambiance2.png){.img-fluid
 fig-alt="Colony of penguins resting on rocks with
 the ocean visible behind them"}
 
@@ -525,7 +525,7 @@ variation within each species.
    critically.
 
 ![Antarctic landscape with
-penguins](media/images/ambiance3.jpg){.img-fluid
+penguins](media/images/ambiance3.png){.img-fluid
 fig-alt="Wide Antarctic landscape with penguins in
 the foreground and mountains in the distance"}
 
