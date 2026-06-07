@@ -1,16 +1,20 @@
 ---
-title: "Palmer Penguins Part 3: Cross-Validation and
-  Model Comparison"
-author: "Ronald 'Ryy' G. Thomas"
-date: "2025-01-03"
-categories: [r, cross-validation, random-forest, machine-learning]
-description: >
-  Testing whether regression models hold up on new
-  data through ten-fold cross-validation and
-  comparison against a random forest.
-image: "media/images/hero.png"
-document-type: "blog"
-draft: true
+title: 'Palmer Penguins Part 3: Cross-Validation and Model Comparison'
+author: Ronald 'Ryy' G. Thomas
+date: '2025-01-03'
+categories:
+- r
+- cross-validation
+- random-forest
+- machine-learning
+- penguins-arc
+description: 'Testing whether regression models hold up on new data through ten-fold
+  cross-validation and comparison against a random forest.
+
+  '
+image: media/images/hero.png
+document-type: blog
+draft: false
 execute:
   echo: true
   eval: false
