@@ -1,6 +1,6 @@
 ---
 title: 'Palmer Penguins Part 3: Cross-Validation and Model Comparison'
-author: Ronald 'Ryy' G. Thomas
+author: Ronald G. Thomas
 date: '2025-01-03'
 categories:
 - r
