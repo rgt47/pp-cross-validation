@@ -1,6 +1,6 @@
 ---
 title: 'Palmer Penguins Part 3: Cross-Validation and Model Comparison'
-author: Ronald G. Thomas
+author: "Ronald G. Thomas"
 date: '2025-01-03'
 categories:
 - r
@@ -20,10 +20,6 @@ execute:
   eval: false
   warning: false
   message: false
-format:
-  html:
-    code-fold: false
-    code-tools: false
 cluster: penguins-arc
 cluster-order: 3
 ---
