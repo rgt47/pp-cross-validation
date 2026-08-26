@@ -1,5 +1,18 @@
 # Image attributions
 
+## Status (2026-08-25)
+
+`ambiance2.jpg` is a genuine Gemini generation as of 2026-08-25
+(generated via the `gemini-image-generator` tool), replacing a
+generic notebook/coffee-mug/living-room flatlay template filler
+shared with `pp-diagnostics` and `pp-multiple-regression`.
+
+- `ambiance2.jpg`: a sheet of graph paper with a hand-drawn scatter
+  of points, one small subset circled in pencil, a ruler laid across
+  the page. Metaphor: a held-out subset evaluated against the rest.
+
+Processed via `magick -resize 1600x -strip -quality 85` to 1600x873.
+
 ## Placeholder coffee images (temporary ambiance slots)
 
 These images are shared placeholders used across all posts until replaced
