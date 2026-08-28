@@ -23,7 +23,7 @@ fig-alt="Penguins standing on rocky Antarctic
 shoreline with ocean waves in the background" fig-align="center"}
 
 *Palmer Penguins series, Part 3. Photo used under
-open licence.*
+open license.*
 
 ::: {.callout-note}
 **Palmer Penguins Series:** This is part 3 of 5:
@@ -46,7 +46,7 @@ and a more honest estimate is needed.
 The problem is familiar to anyone who has built a
 predictive model: the training metrics look excellent,
 but there is no evidence that the model will
-generalise. Cross-validation offers a principled way
+generalize. Cross-validation offers a principled way
 to estimate out-of-sample performance without
 requiring a separate hold-out dataset, which would
 have been difficult to justify given our modest sample
@@ -143,17 +143,17 @@ data into k equally sized folds, train on k-1 folds,
 and evaluate on the held-out fold. Repeating this
 process for each fold produces k performance
 estimates whose average is a less biased measure of
-generalisation error than the training-set metric
+generalization error than the training-set metric
 alone.
 
 Think of it as giving each observation a turn as the
 "test case." If the model performs consistently
 across all ten folds, we gain confidence that the
-reported R-squared is not an artefact of the
+reported R-squared is not an artifact of the
 particular sample we happened to collect. If
 performance varies widely across folds, that signals
 instability, a warning that the model may not
-generalise.
+generalize.
 
 # Getting Started
 
@@ -294,7 +294,7 @@ kable(
 The species model maintains strong cross-validated
 performance with an R-squared confidence interval
 that sits well above the other two models. The
-narrow interval suggests stable generalisation across
+narrow interval suggests stable generalization across
 folds.
 
 ![A sheet of graph paper with a hand-drawn scatter of
@@ -398,7 +398,7 @@ kable(
 The random forest identifies flipper length and sex
 as the most important predictors, which aligns with
 the biological intuition from our earlier linear
-modelling.
+modeling.
 
 # Model Performance Summary
 
@@ -524,7 +524,7 @@ the foreground and mountains in the distance"}
 
 *Closing visual before the summary sections.*
 
-## Lessons Learnt
+## Lessons Learned
 
 ### Conceptual Understanding
 
@@ -541,7 +541,7 @@ the foreground and mountains in the distance"}
   access to additional predictors (sex and island).
 - The bias-variance tradeoff is visible in these
   results: more complex models do not always
-  generalise better.
+  generalize better.
 
 ### Technical Skills
 
@@ -580,7 +580,7 @@ the foreground and mountains in the distance"}
   observations, which limits the precision of
   per-fold estimates in ten-fold cross-validation.
 - Geographic scope is restricted to Palmer Station,
-  Antarctica, and may not generalise to penguin
+  Antarctica, and may not generalize to penguin
   populations elsewhere.
 - The temporal window spans only 2007 to 2009;
   longer-term trends are not captured.
@@ -602,7 +602,7 @@ the foreground and mountains in the distance"}
    repeated 5 times) to obtain more stable
    performance estimates.
 3. Explore gradient-boosted trees (e.g., `xgboost`)
-   as a third modelling paradigm.
+   as a third modeling paradigm.
 4. Add interaction terms between species and
    continuous predictors to the linear model, which
    may close the gap with the random forest.
@@ -615,7 +615,7 @@ the foreground and mountains in the distance"}
 # Wrapping Up
 
 This analysis confirms that the species-aware linear
-model from Part 2 generalises well to unseen data.
+model from Part 2 generalizes well to unseen data.
 Ten-fold cross-validation produced an R-squared of
 approximately 0.86, closely matching the training-set
 figure and indicating minimal overfitting.
@@ -629,14 +629,14 @@ of this size, the additional complexity of ensemble
 methods does not appear to be justified.
 
 A recommendation for anyone working through a similar
-modelling exercise: always cross-validate before
+modeling exercise: always cross-validate before
 drawing conclusions about model quality, and do not
 assume that a more complex model will outperform a
 simpler one.
 
 In conclusion, four points merit emphasis. First,
 a cross-validated R-squared of approximately 0.86
-confirms that the species-aware model generalises
+confirms that the species-aware model generalizes
 robustly to held-out data. Second, polynomial
 features yield negligible improvement over linear
 terms within species, indicating that the biological
@@ -715,7 +715,7 @@ Feedback is welcome for:
 - Discussion of cross-validation methodology or
   model comparison
 - Questions about anything in this tutorial
-- General discussion of predictive modelling for
+- General discussion of predictive modeling for
   ecological data
 
 ## Related posts in this cluster
